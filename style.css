@@ -1,0 +1,168 @@
+body {
+    font-family: "Kanit", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    background: #e5e5e5;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    width: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 6px 6px 20px 0px #0000001a;
+}
+
+/* Main */
+
+/* li {
+    color: green;
+} */
+
+.title_style {
+    color: #fb6d3a;
+}
+
+.line_style {
+    color: #000000;
+}
+
+ul.sidebar_list {
+    list-style: none;
+}
+
+ul.sidebar_list li::before {
+    content: "\2022";
+    color: #fb6d3a;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -3em;
+}
+
+ol {
+    list-style: none;
+}
+
+ol li::before {
+    content: "\2022";
+    color: #000000;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -3em;
+}
+
+.description {
+    color: rgb(19, 22, 221);
+}
+
+.main-description {
+    background: white;
+    margin: 102px 5px 40px 88px;
+    /* padding: 40px; */
+}
+
+.project-description {
+    background: white;
+    margin: 20px 20px 20px 88px;
+    /* padding: 40px; */
+}
+
+.work-description {
+    background: white;
+    margin: 20px 20px 20px 88px;
+    /* padding: 40px; */
+}
+
+.edu-description {
+    background: white;
+    margin: 20px 20px 20px 88px;
+    /* padding: 40px; */
+}
+
+.date {
+    width: 400px;
+    height: 15px;
+    left: 498px;
+    top: 1000px;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #a8a8a8;
+}
+
+/* Sidebar */
+
+.sidebar {
+    width: 370px;
+    margin: 40px 0px 40px 40px;
+    background: #1e2939;
+    color: #ffffff;
+}
+
+.contacts_styles {
+    margin: 40px;
+}
+
+.tech_styles {
+    margin: 40px;
+}
+
+.soft_styles {
+    margin: 40px;
+}
+
+.side_desctiption {
+    /* position: absolute; */
+    width: 300px;
+    height: 27px;
+    left: 80px;
+    top: 615px;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #ffffff;
+}
+
+.sidebar_list {
+    /* position: absolute; */
+
+    width: 300px;
+    height: 85px;
+    left: 300px;
+    top: 200px;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #ffffff;
+}
+
+a {
+    color: grey;
+}
+
+a:hover {
+    color: green;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:active {
+    color: brown;
+}
