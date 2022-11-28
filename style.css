@@ -16,15 +16,43 @@ body {
 
 /* Main */
 
+main {
+    padding: 102px 88px 102px 88px;
+}
+
 .main-block {
-    background: white;
-    margin: 102px 5px 40px 88px;
+    width: 600px;
+}
+
+.job-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+}
+
+.main-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-bottom: 40px;
 }
 
 .project-block {
-    background: white;
-    margin: 20px 20px 20px 88px;
-    /* padding: 40px; */
+    width: 450px;
+    margin-bottom: 51px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 12px;
 }
 
 .project-list {
@@ -33,51 +61,66 @@ body {
     margin-left: 0;
     padding-left: 0;
     list-style-position: inside;
+    text-decoration: none;
 }
 
 .we-list {
+    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+    color: #595959;
     margin-left: 0;
+    margin-bottom: 16px;
     padding-left: 0;
     list-style-position: inside;
 }
 
 .work-block {
     background: white;
-    margin: 51px 20px 20px 88px;
-}
-
-.edu-block {
-    background: white;
-    margin: 43px 20px 20px 88px;
+    margin-bottom: 43px;
 }
 
 .date {
-    margin: 11px 0px 8px 0px;
-    padding: 0px 0px 0px 0px;
+    font-weight: 400;
     font-size: 12px;
+    line-height: 15px;
     color: #a8a8a8;
+    margin-bottom: 8px;
 }
 
-.title_style {
+.title_style1 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.title_style2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
     color: #fb6d3a;
 }
 
 .edu_style {
-    margin: 0px 0px 8px 0px;
-    padding: 0 0 0 0;
-
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
     color: #fb6d3a;
+    margin-bottom: 12px;
+}
+
+.edu_field {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 11px;
 }
 
 .line_style {
     color: #000000;
 }
-
-/* .description {
-    color: rgb(19, 22, 221);
-} */
 
 /* Sidebar */
 
